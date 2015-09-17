@@ -8,6 +8,10 @@ body, html{
 	color: #5a5a5a;
 }
 
+
+
+
+
 h1{
 	text-transform: uppercase;
 }
@@ -117,12 +121,13 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/mt_02.jpg);
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background: url(../img/linktomt_medium.png),
+	url(../img/mt_02.jpg);
+	background-position: center, center;
+
+	background-repeat: no-repeat, no-repeat;
 	color: #cfcfcf;
+;
 
 
 }
@@ -132,9 +137,10 @@ font-weight: 900;
 	color: #e3e3e3;
 }
 
-.content{
+.content {
 	position: relative;
 	padding: 20% 0 0;
+	text-align: center;
 }
 
 .color{
