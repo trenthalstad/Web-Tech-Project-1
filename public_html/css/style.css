@@ -150,11 +150,10 @@ font-weight: 900;
 	background: url(../img/linktomt_medium.png),
 	url(../img/snow_1.jpg);
 	background-position: center, center;
-
 	background-repeat: no-repeat, no-repeat;
-	color: #fff;
+        background-size: 50%, 100%;
+	color: #fff; 
         
-        background-position-y: 42px;
 ;
 
 
