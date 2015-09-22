@@ -60,6 +60,20 @@ a:active{
 	float: left;
 	clear: both;
 }
+.center
+{
+   
+    margin: auto;
+    width: 60%;
+    
+    padding: 10px;
+
+}
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -164,6 +178,21 @@ font-weight: 900;
 ;
 
 
+}
+
+.wordc
+{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.wordl
+{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 
