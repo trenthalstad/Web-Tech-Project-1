@@ -153,6 +153,19 @@ font-weight: 900;
 
 }
 
+#tf-snow{
+	background: url(../img/linktomt_medium.png),
+	url(../img/snow_1.jpg);
+	background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+        background-size: 50%, 100%;
+	color: #fff; 
+        
+;
+
+
+}
+
 
 
 #tf-home p.lead{
