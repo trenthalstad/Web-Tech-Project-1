@@ -179,6 +179,30 @@ font-weight: 900;
 
 
 }
+#tf-fish{
+	background: url(../img/linktomt_medium.png),
+	url(../img/fish4.jpg);
+	background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+        background-size: 50%, 100%;
+	color: #fff; 
+        
+;
+
+
+}
+#tf-kayak{
+	background: url(../img/linktomt_medium.png),
+	url(../img/kayakfhl.png);
+	background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+        background-size: 50%, 100%;
+	color: #fff; 
+        
+;
+
+
+}
 
 .wordc
 {
@@ -632,3 +656,8 @@ nav#footer p{
 	border-color: #fff;
 	color: black;
 }
+#aText {
+	text-align: center;
+
+}
+
