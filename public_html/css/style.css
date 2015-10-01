@@ -8,6 +8,68 @@ body, html{
 	color: #5a5a5a;
 }
 
+a span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-size: 30px;
+
+}
+
+a:hover span {
+  display: block;
+}
+#backpacking
+{
+  padding-top: 50%;
+  padding-left: 30%;
+}
+#kayaking
+{
+  padding-top: 50%;
+  padding-left: 35%;
+}
+#rafting
+{
+    padding-top: 50%;
+    padding-left: 38%;
+}
+#dbiking
+{
+    padding-top: 50%;
+    padding-left: 30%;
+}
+#mbiking
+{
+    padding-top: 50%;
+    padding-left: 23%;
+}
+#skiing
+{
+    padding-top: 50%;
+    padding-left: 40%;
+}
+#fishing
+{
+    padding-top: 50%;
+    padding-left: 40%;
+}
+#hunting
+{
+     padding-top: 50%;
+    padding-left: 40%;
+}
+#snowshoe
+{
+    padding-top: 50%;
+    padding-left: 28%;
+}
+
 h1{
 	text-transform: uppercase;
 }
@@ -179,6 +241,18 @@ font-weight: 900;
 
 
 }
+#tf-snowshoe{
+	background: url(../img/linktomt_medium.png),
+	url(../img/showshoe/show.jpg);
+	background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+        background-size: 50%, 100%;
+	color: #fff; 
+        
+;
+
+
+}
 #tf-fish{
 	background: url(../img/linktomt_medium.png),
 	url(../img/fish4.jpg);
@@ -199,7 +273,20 @@ font-weight: 900;
         background-size: 50%, 100%;
 	color: #fff; 
         
-;
+
+
+
+}
+#tf-rafting{
+	background: url(../img/linktomt_medium.png),
+	url(../img/water/rafting/show2.jpg);
+	background-position: center, center;
+	background-repeat: no-repeat, no-repeat;
+        background-size: 50%, 100%;
+	color: #fff; 
+   
+        
+
 
 
 }
@@ -225,6 +312,10 @@ font-weight: 900;
 	color: #fff;
 }
 
+#tf-home p.lead2{
+	color: #4c0000;
+}
+
 .content{
 	position: relative;
 	padding: 20% 0 0;
@@ -247,6 +338,12 @@ a.fa.fa-angle-down:hover{
 	background: black;
 	color: white;
 	border: 2px solid #fff;
+}
+a.fa.fa-angle-down2 {
+	padding: 10px 15px;
+	
+	margin-top: 200px;
+	
 }
 /* About Section */
 #tf-about{
@@ -398,7 +495,7 @@ img.img-circle.team-img {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: #ffffff;
-}0
+}
 
 #tf-clients .overlay{
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.73) 17%, rgba(0,0,0,0.66) 35%, rgba(0,0,0,0.55) 62%, rgba(0,0,0,0.4) 100%); /* FF3.6+ */
